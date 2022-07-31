@@ -61,6 +61,7 @@ def timed(start):
     else:
         print('Please put easy, normal, hard, or ct. ')
         timed(start)
+        switch=0)
     timer = int(start) - int(end)
     alteredtime = timer * -1
     print('The time you finished was ' + str(alteredtime) + ' seconds')
